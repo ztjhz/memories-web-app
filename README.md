@@ -9,7 +9,7 @@
 
 ## [Website:](https://tjh-memories-app.netlify.app/)
 
-<img src="demo.jpeg" alt="demo image" width=500 />
+<img src="demo.gif" alt="demo image" width=500 />
 
 ## Tech Stack:
 
