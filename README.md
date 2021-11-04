@@ -21,4 +21,14 @@
 
 - Redux to store the global state of the application
 
+## What can be done:
+
+- Allow users to `create`, `edit` and `delete` posts
+
+- Allow anyone to `like` and `view` posts
+
+## What I added:
+
+- Login authentication needed to create, edit or delete posts (signup disabled to prevent troll posts, contact me to get the credentials)
+
 <a href="https://github.com/adrianhajdin/project_mern_memories" alt="reference" target="_blank"><img src="http://img.shields.io/badge/-Reference-007ACC?style=flat-square&logo=github&logoColor=ffffff" > </a>
