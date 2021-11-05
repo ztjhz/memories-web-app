@@ -6,6 +6,7 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=ffffff)
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=flat-square&logo=redux&logoColor=white)
+<a href="https://github.com/adrianhajdin/project_mern_memories" alt="reference" target="_blank"><img src="http://img.shields.io/badge/-Reference-007ACC?style=flat-square&logo=github&logoColor=ffffff" > </a>
 
 ## [Website:](https://tjh-memories-app.netlify.app/)
 
@@ -30,5 +31,3 @@
 ## What I added:
 
 - Login authentication needed to create, edit or delete posts (signup disabled to prevent troll posts, contact me to get the credentials)
-
-<a href="https://github.com/adrianhajdin/project_mern_memories" alt="reference" target="_blank"><img src="http://img.shields.io/badge/-Reference-007ACC?style=flat-square&logo=github&logoColor=ffffff" > </a>
