@@ -1,16 +1,16 @@
 # Memories Web Application
 #### Record your memories
 
-![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat-square&logo=express&logoColor=%2361DAFB)
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=flat-square&logo=express&logoColor=%2361DAFB)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=ffffff)
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=flat-square&logo=redux&logoColor=white)
-<a href="https://github.com/adrianhajdin/project_mern_memories" alt="reference" target="_blank"><img src="http://img.shields.io/badge/-Reference-007ACC?style=flat-square&logo=github&logoColor=ffffff" > </a>
 
 ## [Website:](https://tjh-memories-app.netlify.app/)
 
-<img src="demo.gif" alt="demo image" width=500 />
+<a href="https://tjh-memories-app.netlify.app/" alt="demo site" target="_blank"><img src="demo.gif" alt="demo image" width=500 /></a>
 
 ## Tech Stack:
 
