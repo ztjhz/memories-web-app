@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Card,
   CardActions,
@@ -10,6 +10,7 @@ import {
 import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
 import DeleteIcon from '@material-ui/icons/Delete';
 import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
+import { CircularProgress } from '@material-ui/core';
 import moment from 'moment';
 import { useDispatch, useSelector } from 'react-redux';
 import { deletePost, likePost } from '../../../actions/posts';
@@ -20,6 +21,7 @@ const Post = ({ post, setCurrentId }) => {
   const classes = useStyles();
   const dispatch = useDispatch();
   const user = useSelector((state) => state.user);
+  const [loading, setLoading] = useState(false);
 
   return (
     <>
@@ -64,9 +66,15 @@ const Post = ({ post, setCurrentId }) => {
           <Button
             size='small'
             color='primary'
-            onClick={() => dispatch(likePost(post._id))}
+            onClick={() => {
+              !loading && dispatch(likePost(post._id, setLoading));
+            }}
           >
-            <ThumbUpAltIcon fontSize='small' />
+            {loading ? (
+              <CircularProgress size={20} color='secondary' thickness={6} />
+            ) : (
+              <ThumbUpAltIcon fontSize='small' />
+            )}
             &nbsp; Like &nbsp;
             {post.likeCount}
           </Button>
@@ -74,7 +82,9 @@ const Post = ({ post, setCurrentId }) => {
             <Button
               size='small'
               color='primary'
-              onClick={() => dispatch(deletePost(post._id))}
+              onClick={() => {
+                dispatch(deletePost(post._id, setLoading));
+              }}
             >
               <DeleteIcon fontSize='small' />
               Delete

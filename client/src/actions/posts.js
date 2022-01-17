@@ -36,7 +36,8 @@ export const updatePost = (id, post) => async (dispatch) => {
   }
 };
 
-export const deletePost = (id) => async (dispatch) => {
+export const deletePost = (id, setLoading) => async (dispatch) => {
+  setLoading(true);
   try {
     await api.deletePost(id);
 
@@ -44,9 +45,11 @@ export const deletePost = (id) => async (dispatch) => {
   } catch (error) {
     console.log(error);
   }
+  setLoading(false);
 };
 
-export const likePost = (id) => async (dispatch) => {
+export const likePost = (id, setLoading) => async (dispatch) => {
+  setLoading(true);
   try {
     const { data } = await api.likePost(id);
 
@@ -54,4 +57,5 @@ export const likePost = (id) => async (dispatch) => {
   } catch (error) {
     console.log(error);
   }
+  setLoading(false);
 };
