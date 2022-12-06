@@ -9,6 +9,8 @@
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=flat-square&logo=redux&logoColor=white)
 
 ## [Website:](https://tjh-memories-app.netlify.app/)
+[![Website](https://img.shields.io/badge/website-down-red.svg)](https://tjh-memories-app.netlify.app/)
+[![Maintenance](https://img.shields.io/badge/maintained%3F-no-red.svg)](https://github.com/ztjhz/memories-web-app/)
 
 <a href="https://tjh-memories-app.netlify.app/" alt="demo site" target="_blank"><img src="demo.gif" alt="demo image" width=500 /></a>
 
